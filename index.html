@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Javed Ahmed — AI tools & custom software for small businesses</title>
+<meta name="description" content="Javed Ahmed builds AI receptionists, chatbots and custom booking, CRM and scheduling systems for small businesses.">
+<meta property="og:title" content="Javed Ahmed — AI tools & custom software for small businesses">
+<meta property="og:description" content="AI receptionists, chatbots, booking and CRM systems. Fewer missed calls, less manual work.">
+<meta property="og:image" content="https://javed-gulzar.github.io/ji-dash.jpg">
+<meta property="og:url" content="https://javed-gulzar.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232DD4BF'/><text x='16' y='22' font-size='16' font-family='Arial' font-weight='700' text-anchor='middle' fill='%230B1220'>JA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0B1220;--panel:#111A2C;--line:rgba(148,163,184,.18);--text:#E8EEF7;--muted:#94A3B8;--teal:#2DD4BF}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  a{color:inherit}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,18,32,.92);backdrop-filter:blur(8px);z-index:5}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+  .brand{font-weight:700;letter-spacing:-.01em}
+  nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px}
+  nav a:hover{color:var(--text)}
+  .hero{padding:88px 0 64px;position:relative;overflow:hidden}
+  .hero:before{content:"";position:absolute;right:-200px;top:-120px;width:640px;height:520px;background:radial-gradient(closest-side,rgba(45,212,191,.16),transparent);pointer-events:none}
+  .eyebrow{color:var(--teal);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
+  h1{font-size:clamp(34px,5.4vw,58px);line-height:1.06;letter-spacing:-.025em;max-width:820px}
+  h1 span{color:var(--muted)}
+  .lead{color:var(--muted);font-size:18px;max-width:640px;margin-top:20px}
+  .cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:12px 20px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none}
+  .btn.primary{background:var(--teal);color:#0B1220}
+  .btn.ghost{border:1px solid var(--line);color:var(--text)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:36px}
+  .chip{border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13px;color:#CBD5E1}
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  h2{font-size:30px;letter-spacing:-.02em;margin-bottom:8px}
+  .sub{color:var(--muted);margin-bottom:36px}
+  .project{display:grid;grid-template-columns:1fr 1.25fr;gap:40px;align-items:start;margin-bottom:72px}
+  .project:last-child{margin-bottom:0}
+  .project .tag{color:var(--teal);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+  .project h3{font-size:26px;letter-spacing:-.02em;margin:8px 0 12px}
+  .project p{color:var(--muted)}
+  .project ul{margin:16px 0 0 18px;color:#CBD5E1;font-size:15px}
+  .project li{margin:6px 0}
+  .shots .main{width:100%;border-radius:12px;border:1px solid var(--line);display:block;cursor:zoom-in}
+  .thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+  .thumbs img{width:100%;border-radius:8px;border:1px solid var(--line);cursor:pointer;opacity:.75;transition:opacity .15s}
+  .thumbs img:hover,.thumbs img.on{opacity:1;border-color:var(--teal)}
+  .note{font-size:12px;color:#64748B;margin-top:8px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .card b{display:block;font-size:17px;margin-bottom:6px}
+  .card p{color:var(--muted);font-size:14.5px}
+  .contact{text-align:center}
+  .contact .lead{margin:12px auto 28px}
+  .contact .cta{justify-content:center}
+  .addr{color:var(--muted);font-size:14px;margin-top:18px}
+  footer{border-top:1px solid var(--line);padding:28px 0;color:#64748B;font-size:13px}
+  .lightbox{position:fixed;inset:0;background:rgba(2,6,23,.92);display:none;align-items:center;justify-content:center;z-index:10;padding:24px;cursor:zoom-out}
+  .lightbox img{max-width:100%;max-height:100%;border-radius:10px}
+  .lightbox.open{display:flex}
+  @media (max-width:860px){.project{grid-template-columns:1fr;gap:20px}.grid3{grid-template-columns:1fr}nav{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand">Javed Ahmed</div><nav><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></nav></div></header>
+
+<div class="hero"><div class="wrap">
+  <div class="eyebrow">AI &amp; custom systems for small businesses</div>
+  <h1>Fewer missed calls.<br><span>Less manual work.</span></h1>
+  <p class="lead">I build AI receptionists, chatbots and custom booking and business systems — and keep them running after launch. Working with clients in the US and Europe.</p>
+  <div class="cta"><a class="btn primary" href="#contact">Tell me about your project</a><a class="btn ghost" href="#work">See my work</a></div>
+  <div class="chips"><span class="chip">AI Receptionists</span><span class="chip">Chatbots</span><span class="chip">Booking &amp; Scheduling</span><span class="chip">CRM &amp; Dashboards</span><span class="chip">Shopify</span><span class="chip">AWS &amp; Docker</span></div>
+</div></div>
+
+<section id="work"><div class="wrap">
+  <h2>Selected work</h2>
+  <p class="sub">Screenshots show demo environments with sample data, so no client data is shown.</p>
+
+  <div class="project">
+    <div>
+      <div class="tag">AI receptionist</div>
+      <h3>Join Intake</h3>
+      <p>An AI receptionist for small businesses. It picks up every call, talks to the caller, takes their details and books the appointment — so the business stops losing customers when nobody can answer the phone.</p>
+      <ul><li>Answers calls 24/7 with a dedicated number</li><li>Summarises every call: intent, urgency, next step</li><li>Books and reschedules appointments automatically</li><li>Transfers urgent calls to a real person</li></ul>
+    </div>
+    <div class="shots" data-set="ji">
+      <img class="main" src="ji-dash.jpg" alt="Join Intake dashboard">
+      <div class="thumbs"><img class="on" src="ji-dash.jpg" alt="Dashboard"><img src="ji-calls.jpg" alt="Calls"><img src="ji-appt.jpg" alt="Appointments"></div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div>
+      <div class="tag">Scheduling &amp; online booking</div>
+      <h3>PharmaDienst</h3>
+      <p>A platform for pharmacies in Germany that runs staff planning and customer bookings in one place.</p>
+      <ul><li>Weekly shift plans that check a pharmacist is present during all opening hours</li><li>Leave requests, balances and timesheets checked against working-time rules</li><li>Customers book vaccinations and health checks online</li><li>Bookings matched to staff on shift, so no double bookings</li></ul>
+    </div>
+    <div class="shots" data-set="pd">
+      <img class="main" src="pd-dash.jpg" alt="PharmaDienst dashboard">
+      <div class="thumbs"><img class="on" src="pd-dash.jpg" alt="Dashboard"><img src="pd-shift.jpg" alt="Shift plan"><img src="pd-book.jpg" alt="Booking page"></div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div>
+      <div class="tag">Investor portal</div>
+      <h3>Real estate investment platform</h3>
+      <p>A private portal for a real estate investment company to manage projects, investors and funding — replacing spreadsheets and email.</p>
+      <ul><li>Projects, SPVs and target capital with funding progress</li><li>Investment tranches and subscription tracking</li><li>Who invested how much, and payment status per contract</li><li>Access control: each investor sees only their projects and documents</li></ul>
+    </div>
+    <div class="shots" data-set="re">
+      <img class="main" src="re-proj.jpg" alt="Real estate projects">
+      <div class="thumbs"><img class="on" src="re-proj.jpg" alt="Projects"><img src="re-detail.jpg" alt="Project detail"><img src="re-over.jpg" alt="Investment overview"></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <h2>What I can build for you</h2>
+  <p class="sub">Fixed scope, clear price, and I stay around after launch.</p>
+  <div class="grid3">
+    <div class="card"><b>AI receptionist</b><p>Answers your calls 24/7, books appointments and sends you a summary of every call. Set up in about a week.</p></div>
+    <div class="card"><b>Website chatbot</b><p>Answers customer questions on your site or online store, trained on your own products and policies.</p></div>
+    <div class="card"><b>Booking &amp; scheduling</b><p>Online booking for your services, connected to your staff plan so you never double-book.</p></div>
+    <div class="card"><b>Custom CRM &amp; dashboards</b><p>Your customers, follow-ups and numbers in one place, built around how your business actually works.</p></div>
+    <div class="card"><b>Shopify automation</b><p>Product sync, order workflows and store operations that run without manual work.</p></div>
+    <div class="card"><b>Hosting &amp; care</b><p>I deploy on AWS or your server, monitor it, and fix it when something breaks.</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <h2>Got a project in mind?</h2>
+  <p class="lead">Send me a message with what you need. I reply within a day with a plan and a fixed price.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://www.linkedin.com/in/javedahmmed/">Message me on LinkedIn</a>
+    <a class="btn ghost" href="https://www.fiverr.com/javedahmed1998">Hire me on Fiverr</a>
+  </div>
+  <p class="addr">Email: javedgulzar1832@gmail.com</p>
+</div></section>
+
+<footer><div class="wrap">© 2026 Javed Ahmed · Fiverr Pro · Level 2 seller</div></footer>
+
+<div class="lightbox" id="lb"><img alt=""></div>
+<script>
+  document.querySelectorAll('.shots').forEach(function(s){
+    var main=s.querySelector('.main');
+    s.querySelectorAll('.thumbs img').forEach(function(t){
+      t.addEventListener('click',function(){main.src=t.src;main.alt=t.alt;s.querySelectorAll('.thumbs img').forEach(function(x){x.classList.remove('on')});t.classList.add('on');});
+    });
+    main.addEventListener('click',function(){var lb=document.getElementById('lb');lb.querySelector('img').src=main.src;lb.classList.add('open');});
+  });
+  document.getElementById('lb').addEventListener('click',function(){this.classList.remove('open');});
+</script>
+</body>
+</html>
