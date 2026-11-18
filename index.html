@@ -47,7 +47,7 @@
   .project ul{margin:16px 0 0 18px;color:#CBD5E1;font-size:15px}
   .project li{margin:6px 0}
   .shots .main{width:100%;border-radius:12px;border:1px solid var(--line);display:block;cursor:zoom-in}
-  .thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+  .thumbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));grid-auto-flow:column;gap:10px;margin-top:10px}
   .thumbs img{width:100%;border-radius:8px;border:1px solid var(--line);cursor:pointer;opacity:.75;transition:opacity .15s}
   .thumbs img:hover,.thumbs img.on{opacity:1;border-color:var(--teal)}
   .note{font-size:12px;color:#64748B;margin-top:8px}
@@ -117,6 +117,45 @@
     <div class="shots" data-set="re">
       <img class="main" src="re-proj.jpg" alt="Real estate projects">
       <div class="thumbs"><img class="on" src="re-proj.jpg" alt="Projects"><img src="re-detail.jpg" alt="Project detail"><img src="re-over.jpg" alt="Investment overview"></div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div>
+      <div class="tag">E-commerce admin &amp; AI assistant</div>
+      <h3>CyberBike</h3>
+      <p>A custom store backend for a US e-bike brand, with an AI assistant that answers customers around the clock. <a href="https://cyberbike.com" target="_blank" rel="noopener" style="color:var(--teal)">cyberbike.com</a></p>
+      <ul><li>Dashboard with orders, revenue, products and customers</li><li>AI chat answers product, financing and order questions, then hands off to the team</li><li>Order, product and variant management with stock status</li><li>Financing plans, coupons, abandoned carts and SMS campaigns</li></ul>
+    </div>
+    <div class="shots" data-set="cb">
+      <img class="main" src="cyberbike-dashboard.jpg" alt="CyberBike admin dashboard">
+      <div class="thumbs"><img class="on" src="cyberbike-dashboard.jpg" alt="Dashboard"><img src="cyberbike-ai-chat.jpg" alt="AI assistant"><img src="cyberbike-orders.jpg" alt="Orders"><img src="cyberbike-products.jpg" alt="Products"></div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div>
+      <div class="tag">Shopify store</div>
+      <h3>Copier1</h3>
+      <p>A Shopify store for a US copier dealer, built for business buyers who compare models and ask for quotes. <a href="https://copier1.com" target="_blank" rel="noopener" style="color:var(--teal)">copier1.com</a></p>
+      <ul><li>Custom theme with sale banners and countdowns</li><li>Search and filters by brand, category, speed and part number</li><li>Quote requests and maintenance plans next to the products</li><li>Hundreds of copiers, toners and parts organised into collections</li></ul>
+    </div>
+    <div class="shots" data-set="c1">
+      <img class="main" src="copier1-home.jpg" alt="Copier1 storefront">
+      <div class="thumbs"><img class="on" src="copier1-home.jpg" alt="Storefront"><img src="copier1-collection.jpg" alt="Catalogue"><img src="copier1-analytics.jpg" alt="Store analytics"></div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div>
+      <div class="tag">Website, CMS &amp; 3D projects</div>
+      <h3>Cutting Edge Decking</h3>
+      <p>Website and custom admin for a steel deck manufacturer in Texas, built to win quote requests from contractors. <a href="https://cuttingedgedeck.com" target="_blank" rel="noopener" style="color:var(--teal)">cuttingedgedeck.com</a></p>
+      <ul><li>Quote-focused website with live chat</li><li>Interactive 3D models of completed projects, managed from the admin</li><li>Custom CMS for pages, services, projects, blog and newsletter</li><li>Built-in visitor analytics and PDF download tracking</li></ul>
+    </div>
+    <div class="shots" data-set="ced">
+      <img class="main" src="ced-site.jpg" alt="Cutting Edge Decking website">
+      <div class="thumbs"><img class="on" src="ced-site.jpg" alt="Website"><img src="ced-3d.jpg" alt="3D models"><img src="ced-dashboard.jpg" alt="Admin dashboard"><img src="ced-analytics.jpg" alt="Analytics"></div>
     </div>
   </div>
 </div></section>
