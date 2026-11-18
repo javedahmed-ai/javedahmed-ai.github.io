@@ -10,29 +10,29 @@
 <meta property="og:image" content="https://javedahmed-ai.github.io/ji-dash.jpg">
 <meta property="og:url" content="https://javedahmed-ai.github.io/">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232DD4BF'/><text x='16' y='22' font-size='16' font-family='Arial' font-weight='700' text-anchor='middle' fill='%230B1220'>JA</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%236366F1'/><text x='16' y='22' font-size='16' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'>JA</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#0B1220;--panel:#111A2C;--line:rgba(148,163,184,.18);--text:#E8EEF7;--muted:#94A3B8;--teal:#2DD4BF}
+  :root{--bg:#0B1220;--panel:#111A2C;--line:rgba(148,163,184,.18);--text:#E8EEF7;--muted:#94A3B8;--teal:#8B9DFF;--acc1:#6366F1;--acc2:#A855F7;--warm:#FBBF24}
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
   a{color:inherit}
   .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
   header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,18,32,.92);backdrop-filter:blur(8px);z-index:5}
-  header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;height:72px}
   .brand{font-weight:700;letter-spacing:-.01em}
   nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px}
   nav a:hover{color:var(--text)}
   .hero{padding:88px 0 64px;position:relative;overflow:hidden}
-  .hero:before{content:"";position:absolute;right:-200px;top:-120px;width:640px;height:520px;background:radial-gradient(closest-side,rgba(45,212,191,.16),transparent);pointer-events:none}
-  .eyebrow{color:var(--teal);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
+  .hero:before{content:"";position:absolute;right:-200px;top:-120px;width:640px;height:520px;background:radial-gradient(closest-side,rgba(99,102,241,.22),transparent);pointer-events:none}
+  .eyebrow{color:var(--warm);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
   h1{font-size:clamp(34px,5.4vw,58px);line-height:1.06;letter-spacing:-.025em;max-width:820px}
   h1 span{color:var(--muted)}
   .lead{color:var(--muted);font-size:18px;max-width:640px;margin-top:20px}
   .cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
   .btn{display:inline-block;padding:12px 20px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none}
-  .btn.primary{background:var(--teal);color:#0B1220}
+  .btn.primary{background:linear-gradient(135deg,var(--acc1),var(--acc2));color:#fff;border-color:transparent;box-shadow:0 8px 24px rgba(99,102,241,.35)}
   .btn.ghost{border:1px solid var(--line);color:var(--text)}
   .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:36px}
   .chip{border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13px;color:#CBD5E1}
@@ -64,10 +64,17 @@
   .lightbox img{max-width:100%;max-height:100%;border-radius:10px}
   .lightbox.open{display:flex}
   @media (max-width:860px){.project{grid-template-columns:1fr;gap:20px}.grid3{grid-template-columns:1fr}nav{display:none}}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+  .brand .mono{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-weight:800;font-size:15px;color:#fff;background:linear-gradient(135deg,var(--acc1),var(--acc2));box-shadow:0 6px 18px rgba(139,92,246,.4);letter-spacing:.02em}
+  .brand .bn{display:flex;flex-direction:column;justify-content:center;line-height:1.2}
+  .brand .nm,.brand .sub{display:block}
+  .brand .nm{font-weight:800;font-size:19px;letter-spacing:-.01em;background:linear-gradient(90deg,#fff 30%,#C7D2FE);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .brand .sub{font-size:11px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin:2px 0 0}
+  .project .tag{color:#A5B4FC}
 </style>
 </head>
 <body>
-<header><div class="wrap"><div class="brand">Javed Ahmed</div><nav><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></nav></div></header>
+<header><div class="wrap"><a class="brand" href="#"><span class="mono">JA</span><span class="bn"><span class="nm">Javed Ahmed</span><span class="sub">AI &amp; custom software</span></span></a><nav><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></nav></div></header>
 
 <div class="hero"><div class="wrap">
   <div class="eyebrow">AI &amp; custom systems for small businesses</div>
@@ -124,7 +131,7 @@
     <div>
       <div class="tag">E-commerce admin &amp; AI assistant</div>
       <h3>CyberBike</h3>
-      <p>A custom store backend for a US e-bike brand, with an AI assistant that answers customers around the clock. <a href="https://cyberbike.com" target="_blank" rel="noopener" style="color:var(--teal)">cyberbike.com</a></p>
+      <p>A custom store backend for a US e-bike brand, with an AI assistant that answers customers around the clock.</p>
       <ul><li>Dashboard with orders, revenue, products and customers</li><li>AI chat answers product, financing and order questions, then hands off to the team</li><li>Order, product and variant management with stock status</li><li>Financing plans, coupons, abandoned carts and SMS campaigns</li></ul>
     </div>
     <div class="shots" data-set="cb">
@@ -137,7 +144,7 @@
     <div>
       <div class="tag">Shopify store</div>
       <h3>Copier1</h3>
-      <p>A Shopify store for a US copier dealer, built for business buyers who compare models and ask for quotes. <a href="https://copier1.com" target="_blank" rel="noopener" style="color:var(--teal)">copier1.com</a></p>
+      <p>A Shopify store for a US copier dealer, built for business buyers who compare models and ask for quotes.</p>
       <ul><li>Custom theme with sale banners and countdowns</li><li>Search and filters by brand, category, speed and part number</li><li>Quote requests and maintenance plans next to the products</li><li>Hundreds of copiers, toners and parts organised into collections</li></ul>
     </div>
     <div class="shots" data-set="c1">
@@ -150,7 +157,7 @@
     <div>
       <div class="tag">Website, CMS &amp; 3D projects</div>
       <h3>Cutting Edge Decking</h3>
-      <p>Website and custom admin for a steel deck manufacturer in Texas, built to win quote requests from contractors. <a href="https://cuttingedgedeck.com" target="_blank" rel="noopener" style="color:var(--teal)">cuttingedgedeck.com</a></p>
+      <p>Website and custom admin for a steel deck manufacturer in Texas, built to win quote requests from contractors.</p>
       <ul><li>Quote-focused website with live chat</li><li>Interactive 3D models of completed projects, managed from the admin</li><li>Custom CMS for pages, services, projects, blog and newsletter</li><li>Built-in visitor analytics and PDF download tracking</li></ul>
     </div>
     <div class="shots" data-set="ced">
@@ -164,11 +171,11 @@
       <div class="tag">AI estimating tool</div>
       <h3>Steel deck takeoff tool</h3>
       <p>An internal web app for the same manufacturer. Estimators upload a PDF drawing and get deck quantities in minutes instead of hours.</p>
-      <ul><li>AI detects the drawing scale and reads the deck specifications</li><li>Draw or auto-detect deck areas, mark openings to exclude</li><li>Calculates square footage, sheets, shear studs and steel weight</li><li>Saved takeoffs, PDF comparison and export to PDF or JSON</li></ul>
+      <ul><li>AI finds the framing plans, detects the scale and reads the title block</li><li>Draw or auto-detect deck areas, mark openings to exclude</li><li>Works out the waste per job, order quantities and squares per deck type</li><li>Saved takeoffs, PDF comparison and export to PDF or JSON</li></ul>
     </div>
     <div class="shots" data-set="to">
       <img class="main" src="takeoff-plan.jpg" alt="Takeoff tool with marked deck areas">
-      <div class="thumbs"><img class="on" src="takeoff-plan.jpg" alt="Drawing takeoff"><img src="takeoff-sheet.jpg" alt="Takeoff sheet"></div>
+      <div class="thumbs"><img class="on" src="takeoff-plan.jpg" alt="Drawing takeoff"><img src="takeoff-sheet.jpg" alt="Takeoff sheet"><img src="takeoff-info.jpg" alt="Project details"><img src="takeoff-pdf.jpg" alt="PDF export"></div>
     </div>
   </div>
 </div></section>
