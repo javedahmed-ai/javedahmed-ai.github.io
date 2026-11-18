@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://javedahmed-ai.github.io/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://javedahmed-ai.github.io/og-cover.jpg</image:loc></image:image>
+    <image:image><image:loc>https://javedahmed-ai.github.io/ji-dash.jpg</image:loc></image:image>
+    <image:image><image:loc>https://javedahmed-ai.github.io/pd-shift.jpg</image:loc></image:image>
+    <image:image><image:loc>https://javedahmed-ai.github.io/cyberbike-ai-chat.jpg</image:loc></image:image>
+    <image:image><image:loc>https://javedahmed-ai.github.io/takeoff-plan.jpg</image:loc></image:image>
+  </url>
+</urlset>

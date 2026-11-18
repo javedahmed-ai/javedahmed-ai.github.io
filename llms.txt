@@ -1,0 +1,26 @@
+# Javed Ahmed — AI & Custom Software for Small Businesses
+
+> Javed Ahmed is a freelance AI and custom software developer. He builds AI receptionists that answer business calls 24/7, AI chatbots, and custom booking, scheduling and CRM systems for small businesses in the United States and Europe, and hosts and maintains them after launch.
+
+## Services
+- AI receptionist: answers calls 24/7, books appointments, summarises every call, transfers urgent calls
+- Website and store chatbots trained on a business's own products and policies
+- Booking and scheduling systems connected to staff plans, with no double bookings
+- Custom CRMs and dashboards
+- Shopify stores, themes and automation
+- Hosting, monitoring and maintenance on AWS or the client's server
+
+## Selected work
+- Join Intake: AI receptionist platform with call log, AI summaries and appointment booking
+- PharmaDienst: shift planning, absences, timesheets and online booking for pharmacies in Germany
+- Real estate investor portal: projects, funding, documents and role-based investor access
+- CyberBike: custom e-commerce admin for a US e-bike brand with an AI chat assistant
+- Copier1: Shopify store for a US copier dealer with model search and quote requests
+- Cutting Edge Decking: website, custom CMS, 3D project models and analytics for a steel deck manufacturer
+- Steel deck takeoff tool: AI estimating app that reads PDF drawings and calculates deck order quantities
+
+## Contact
+- Portfolio: https://javedahmed-ai.github.io/
+- LinkedIn: https://www.linkedin.com/in/javedahmmed/
+- Fiverr: https://www.fiverr.com/javedahmed1998
+- GitHub: https://github.com/javedahmed-ai
